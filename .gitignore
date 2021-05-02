@@ -17,6 +17,7 @@ eggs/
 lib/
 lib64/
 parts/
+scripts/
 sdist/
 var/
 wheels/
@@ -117,3 +118,4 @@ dmypy.json
 .idea/vcs.xml
 .idea/workspace.xml
 .idea/workspace.xml
+.idea/pylint.xml
