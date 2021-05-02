@@ -8,7 +8,12 @@
  ```
 It saves urls with additional information for all deputats.
 To run the scraper type:
+```
 cd src
+```
+```
 cd parliamentbg
+```
+```
 scrapy crawl parliament_all -O quotes.json
-
+```
