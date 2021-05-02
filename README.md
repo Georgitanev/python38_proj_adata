@@ -1,4 +1,4 @@
-# python38_projadata
+# python38_proj_adata
  Scrapy scraper
  
  It uses python 3.8 
