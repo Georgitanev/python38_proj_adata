@@ -18,6 +18,7 @@ lib/
 lib64/
 parts/
 scripts/
+.idea/
 sdist/
 var/
 wheels/
