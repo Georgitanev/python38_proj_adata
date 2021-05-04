@@ -18,7 +18,6 @@ schema_path = os.path.join(path, "json_schema_with_email.json")
 
 
 # keeping this until finish the script in case of website not working again
-# xls_url = os.path.join(path, "MemberofParliament2797.xls")
 # Load json schema for validation
 
 
