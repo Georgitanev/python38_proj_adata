@@ -34,5 +34,5 @@ Json schema for data validation and strict e-mail validation
 ```
 json_schema_with_email.json
 ```
-When I generate them, I move them in https://github.com/Georgitanev/python38_proj_adata/tree/main/src/parliamentbg/parliamentbg/spiders
+When I generate parties_dictionary_new.json and json_schema_with_email.json file, I move them in https://github.com/Georgitanev/python38_proj_adata/tree/main/src/parliamentbg/parliamentbg/spiders
 folder.
