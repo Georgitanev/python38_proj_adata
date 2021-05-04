@@ -24,6 +24,7 @@ scrapy crawl parliament_all
 scrapy crawl parliament_all -O test_crawler.json
 ```
 
+#### In installation folder
 #### Usage of dict_to_json.py
 This file generating json files:
 With long and short names of parties, to use them like dictionary when spyder running
