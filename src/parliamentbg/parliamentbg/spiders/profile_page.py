@@ -22,7 +22,7 @@ schema_path = os.path.join(path, "json_schema_with_email.json")
 
 
 def open_json(schema_path):
-    with open(schema_path, encoding='utf-8-sig') as fh:
+    with open(schema_path, encoding="utf-8-sig") as fh:
         return json.load(fh)
 
 
@@ -43,29 +43,29 @@ def extract_political_force(party=""):
     return political_force
 
 
-class QuotesSpider(scrapy.Spider):
+class ProfileScraper(scrapy.Spider):
     """Crawler for profile page with personal information"""
 
     name = "profile_page"
     # use this url in case website not working again 'https://www.abv.bg/',
-    start_urls = ["https://parliament.bg/bg/MP/3013", ]
+    start_urls = [
+        "https://parliament.bg/bg/MP/3013",
+    ]
 
     def parse(self, response, **kwargs):
         items = ParliamentbgItem()
         # temporary not using parliament, because website not working
         selector = Selector(response)
-        xls_url = selector.xpath(
-            '//*[@id="leftcontent-2"]/div[3]/div[2]/a[2]/@href'
-        ).get()
-
+        xpath_u = '//*[@id="leftcontent-2"]/div[3]/div[2]/a[2]/@href'
+        xls_url = selector.xpath(xpath_u).get()
         xls_url = "https://parliament.bg" + xls_url
         # temporary because website not working
         df = pd.read_excel(xls_url)  # reading .xls from url
         df = df.where(pd.notnull(df), None)
         names = df.columns[1]  # get the name of column with names
         # get date of birth
-        date_of_birth = \
-            df.loc[df["Unnamed: 0"] == "Дата на раждане ", names].tolist()[0]
+        date_born = "Дата на раждане "
+        date_of_birth = df.loc[df["Unnamed: 0"] == date_born, names].tolist()[0]
         try:
             place_of_birth = df["Unnamed: 2"][0] + " " + df["Unnamed: 3"][0]
         except Exception as ex:
@@ -74,13 +74,11 @@ class QuotesSpider(scrapy.Spider):
         # get profession
         profession = df.loc[df["Unnamed: 0"] == "Професия", names].tolist()[0]
         # get languages
-        foreign_languages = df.loc[df["Unnamed: 0"] == "Езици", names].tolist()[
-            0]
+        foreign_languages = df.loc[df["Unnamed: 0"] == "Езици", names].tolist()[0]
         # get_education
         edu_string = "Научна степен/академична длъжност"
         try:
-            education = df.loc[df["Unnamed: 0"] == edu_string, names].tolist()[
-                0]
+            education = df.loc[df["Unnamed: 0"] == edu_string, names].tolist()[0]
         except Exception as ex:
             print(ex)
             education = None
@@ -103,7 +101,7 @@ class QuotesSpider(scrapy.Spider):
         items["email"] = email
         items["url"] = response.request.url  # [-11:]
         items["education"] = education
-        items["pp"] = parties_dictionary[party]  # political party short version
+        items["pp"] = parties_dictionary[party]  # pol party short version
         # date of birth short version
         items["dob"] = date_of_birth.replace("-", "")
         yield items
