@@ -20,4 +20,3 @@ class ParliamentbgItem(scrapy.Item):
     pp = scrapy.Field()
     dob = scrapy.Field()
     pass
-
