@@ -6,6 +6,21 @@
  ```
  pip install -r requirements.txt
  ```
+
+#### In installation folder
+#### Usage of dict_to_json.py
+This file generating json files:
+With long and short names of parties, to use them like dictionary when spyder running
+```
+parties_dictionary_new.json
+```
+Json schema for data validation and strict e-mail validation
+```
+json_schema_with_email.json
+```
+When I generate parties_dictionary_new.json and json_schema_with_email.json file, I move them in https://github.com/Georgitanev/python38_proj_adata/tree/main/src/parliamentbg/parliamentbg/spiders
+folder.
+
 It saves urls with additional information for all deputats.
 To run the scraper type:
 ```
@@ -23,17 +38,3 @@ scrapy crawl parliament_all
 ```
 scrapy crawl parliament_all -O test_crawler.json
 ```
-
-#### In installation folder
-#### Usage of dict_to_json.py
-This file generating json files:
-With long and short names of parties, to use them like dictionary when spyder running
-```
-parties_dictionary_new.json
-```
-Json schema for data validation and strict e-mail validation
-```
-json_schema_with_email.json
-```
-When I generate parties_dictionary_new.json and json_schema_with_email.json file, I move them in https://github.com/Georgitanev/python38_proj_adata/tree/main/src/parliamentbg/parliamentbg/spiders
-folder.
