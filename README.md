@@ -7,6 +7,11 @@
  pip install -r requirements.txt
  ```
 It saves urls with additional information for all deputats.
+
+Note: There is .xml files but # xml on /3013 not working properly. So use .xlsx files to get info.
+
+It download .xlsx files with information.
+
 To run the scraper type:
 ```
 cd src
