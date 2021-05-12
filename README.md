@@ -23,9 +23,9 @@ folder.
 
 It saves urls with additional information for all deputats.
 
-Note: There is .xml files but # xml on /3013 not working properly. So use .xlsx files to get info.
+#### Note: There are .xml files but # xml on /3013 not working properly. So use .xlsx files to get info.
 
-It download .xlsx files with information.
+#### It download .xlsx files with information.
 
 To run the scraper type:
 ```
