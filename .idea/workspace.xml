@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="811f524e-2f35-48c2-b297-7caba85c46ee" name="Default Changelist" comment="" />
+    <list default="true" id="811f524e-2f35-48c2-b297-7caba85c46ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/django_project/django_project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/django_project/django_project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/django_project/django_project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/django_project/django_project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/django_project/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parliamentbg/database.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/parliamentbg/database.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1rybE6KlLZgHjNqM4jeiG2aFirs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +35,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/django_project/MyApi/firstApp/api" />
+    <property name="settings.editor.selected.configurable" value="com.leinardi.pycharm.pylint.PylintConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\24_09_2019_download_repos\python38_projadata\src\django_project\MyApi\firstApp\api" />
+      <recent name="D:\git\24_09_2019_download_repos\python38_projadata\installation" />
+      <recent name="D:\git\24_09_2019_download_repos\python38_projadata\src\parliamentbg\parliamentbg\spiders" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\24_09_2019_download_repos\python38_projadata\src\django_project\MyApi" />
+      <recent name="D:\git\24_09_2019_download_repos\python38_projadata\installation" />
+      <recent name="D:\git\24_09_2019_download_repos\python38_projadata\src\parliamentbg\parliamentbg\spiders" />
+      <recent name="D:\git\24_09_2019_download_repos\python38_projadata\src\parliamentbg\parliamentbg" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="python38_adata" type="PythonConfigurationType" factoryName="Python">
@@ -33,11 +61,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\git\24_09_2019_download_repos\python38_projadata\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -61,13 +89,88 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="294" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619951477217">
+    <state x="294" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620558274578">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="294" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1619951477217" />
-    <state x="620" y="259" key="FileChooserDialogImpl" timestamp="1619951473125">
+    <state x="294" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1620558274578" />
+    <state x="589" y="308" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620135056547">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="620" y="259" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1619951473125" />
+    <state x="589" y="308" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1620135056547" />
+    <state x="620" y="209" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1619957943516">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="620" y="209" key="#com.intellij.ide.macro.MacrosDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1619957943516" />
+    <state x="584" y="263" key="#com.intellij.tools.ToolEditorDialog" timestamp="1619958646743">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="584" y="263" key="#com.intellij.tools.ToolEditorDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1619958646743" />
+    <state x="92" y="92" width="1496" height="826" key="DiffContextDialog" timestamp="1620132687404">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="92" y="92" width="1496" height="826" key="DiffContextDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1620132687404" />
+    <state x="620" y="259" key="FileChooserDialogImpl" timestamp="1620557739376">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="620" y="259" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1620557739376" />
+    <state x="432" y="162" key="GrepConsoleSettings" timestamp="1619958498909">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="162" key="GrepConsoleSettings/0.0.1680.1010@0.0.1680.1010" timestamp="1619958498909" />
+    <state width="1640" height="322" key="GridCell.Tab.0.bottom" timestamp="1620135115452">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1640" height="322" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1620135115452" />
+    <state width="1640" height="322" key="GridCell.Tab.0.center" timestamp="1620135115452">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1640" height="322" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1620135115452" />
+    <state width="1640" height="322" key="GridCell.Tab.0.left" timestamp="1620135115452">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1640" height="322" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1620135115452" />
+    <state width="1640" height="322" key="GridCell.Tab.0.right" timestamp="1620135115452">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1640" height="322" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1620135115452" />
+    <state width="1640" height="322" key="GridCell.Tab.1.bottom" timestamp="1620135115453">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1640" height="322" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1620135115453" />
+    <state width="1640" height="322" key="GridCell.Tab.1.center" timestamp="1620135115452">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1640" height="322" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1620135115452" />
+    <state width="1640" height="322" key="GridCell.Tab.1.left" timestamp="1620135115452">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1640" height="322" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1620135115452" />
+    <state width="1640" height="322" key="GridCell.Tab.1.right" timestamp="1620135115452">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1640" height="322" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1620135115452" />
+    <state x="341" y="136" key="SettingsEditor" timestamp="1619959084166">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="341" y="136" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1619959084166" />
+    <state x="437" y="110" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1620028933279">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="437" y="110" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1620028933279" />
+    <state x="581" y="150" key="refactoring.ChangeSignatureDialog" timestamp="1619963978831">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="581" y="150" key="refactoring.ChangeSignatureDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1619963978831" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
