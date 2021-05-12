@@ -43,3 +43,54 @@ scrapy crawl parliament_all
 ```
 scrapy crawl parliament_all -O test_crawler.json
 ```
+
+### Django rest API
+
+django rest api plus serialisation and parameter endpoints
+
+Added swagger documentations with these endpoints:
+
+```
+http://127.0.0.1:8000/swagger/
+http://127.0.0.1:8000/redoc/
+```
+
+It saves urls with additional information for all deputats.
+To run the scraper type:
+
+```
+cd MyApi
+python manage.py runserver
+```
+
+##### after running it you can find rest api endpoints in local address:
+``` 
+http://127.0.0.1:8000/
+```
+
+#### Django rest api with serialisation and get method endpoints:
+
+##### Get requests only
+##### No Authentication required - Allow Any 
+##### All records in json format - limit 10 records per page
+
+
+```
+first-app/list/
+```
+##### Search option for:
+```
+"pp"  - party short name - example '?search=GERP'
+"dob" - date of birth short - example '?search=19721025' 
+```
+```
+first-app/list2/?mp=21          - id = '21'
+first-app/list2/?pp=GERP        - party short name 'GERP'
+first-app/list2/?dob=19760217   - short date of birth '19760217'
+```
+##### Search by name:
+```
+first-app/search/?search=ИВА
+```
+
+
