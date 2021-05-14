@@ -44,6 +44,10 @@ scrapy crawl parliament_all
 scrapy crawl parliament_all -O test_crawler.json
 ```
 
+##### To run under linux (manual or crontab) use this .sh script:
+
+https://github.com/Georgitanev/python38_proj_adata/blob/main/crawl.sh
+
 ### Django rest API
 
 django rest api plus serialisation and parameter endpoints
